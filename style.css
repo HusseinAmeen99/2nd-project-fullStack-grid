@@ -7,10 +7,10 @@
 
 /* Header */
 header .navbar {
-    background-color: #bdbcbc;
+    background-color: #B8DB80;
     width: 100%;
     padding: 20px;
-    height: 350px;
+    height: 360px;
 }
 
 header .navbar nav {
@@ -24,6 +24,7 @@ header .navbar nav ul {
     display: flex;
     list-style: none;
     gap: 50px;
+
 }
 
 .title {
@@ -35,11 +36,12 @@ header .navbar nav ul {
 
 .title h1 {
     font-size: 50px;
+    color: #E37434;
 }
 
 .title h2 {
     font-size: 30px;
-    color: rgb(100, 98, 98);
+    color: #947360;
 }
 
 /* Body */
@@ -47,6 +49,8 @@ header .navbar nav ul {
     padding: 20px;
     display: flex;
     justify-content: center; /* يوسّط Grid داخل الصفحة */
+    background-color: #FFE4EF;
+
 }
 
 /* Grid */
@@ -74,7 +78,7 @@ header .navbar nav ul {
 .box {
     width: 300px;
     height: 200px;      /* مستطيل */
-    background: #e3e3e3;
+    background: #F39EB6;
     border-radius: 16px;
     margin-bottom: 10px;
 }
@@ -93,8 +97,8 @@ header .navbar nav ul {
 }
 
 .footer{ 
-   margin: 10px; 
-   border-top: 1px solid black; 
+   padding-right: 10px ; 
+    background-color: #F6F3C2;
    justify-content: space-between; 
    display: flex; align-items: center; 
 }
