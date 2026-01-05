@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+/* Header */
+header .navbar {
+    background-color: #bdbcbc;
+    width: 100%;
+    padding: 20px;
+    height: 350px;
+}
+
+header .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+header .navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.title {
+   margin-top: 50px;
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.title h2 {
+    font-size: 30px;
+    color: rgb(100, 98, 98);
+}
+
+/* Body */
+.body {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* يوسّط Grid داخل الصفحة */
+}
+
+/* Grid */
+.grid {
+    display: grid;
+
+  /* بدل repeat(3, 300px) نستخدم repeat(auto-fit, minmax()) */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  grid-auto-rows: 300px;
+  gap: 20px;
+  width: 90%;          /* لتترك حواف صغيرة عند الشاشات الكبيرة */
+  margin: -100px auto 50px auto; 
+   
+
+
+   }
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 200px;      /* مستطيل */
+    background: #e3e3e3;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid-item a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+.footer{ 
+   margin: 10px; 
+   border-top: 1px solid black; 
+   justify-content: space-between; 
+   display: flex; align-items: center; 
+}
+
+.date{ 
+   padding: 20px; } 
+
+.circle{ 
+   background-color: #bdbcbc; 
+   width: 40px; 
+   height: 40px; 
+   border-radius: 50%; 
+} 
+.circle-class{ 
+   display: flex; 
+   gap: 10px;
+ }
